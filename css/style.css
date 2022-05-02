@@ -74,7 +74,101 @@ header {
     padding-right: 10px;
 }
 
-
 /* main */
 
+main .flex-container {
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 0 10px;
+    margin: 40px 0;
+}
+
+.images {
+    position: relative;
+}
+
+.change {
+    display: none;
+}
+
+.images:hover .preview {
+    display: none;
+}
+
+.images:hover .change {
+    display: inline-block;
+}
+
+.heart {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.details {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+}
+
+.discount {
+    padding: 10px;
+    background-color: red;
+}
+
+.sustainability {
+    padding: 10px;
+    background-color: green;
+}
+
+.marca {
+    font-size: 14px;
+}
+
+.no-sconto {
+    color: red;
+    font-weight: 800;
+}
+
+.sconto {
+    text-decoration: line-through ;
+}
+
 /* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-bar {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-contacts h3 {
+    margin-bottom: 10px;
+}
+.footer-contacts ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-contacts li {
+    padding-right: 10px;
+}
+
+.social-link p {
+    margin-bottom: 10px;
+}
+
+.social-link a {
+    padding-right: 5px;
+}
